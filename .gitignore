@@ -5,3 +5,15 @@ ENV/
 
 .env
 __pycache__/*
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Local market data
+data/prices.csv
