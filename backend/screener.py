@@ -41,6 +41,7 @@ def screen_stocks(
         return metrics.copy()
 
     result = metrics.copy()
+    result = result[result["symbol"] != "NIFTY50"]
 
     if min_return_20d is not None:
         result = result[
