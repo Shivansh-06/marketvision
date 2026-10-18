@@ -12,7 +12,7 @@ import {
   Bar,
 } from "recharts";
 
-const API = "http://127.0.0.1:8000";
+const API = "http://127.0.0.1:8001";
 const STATUS_POLL_INTERVAL = 5 * 60 * 1000;
 
 type Stock = {

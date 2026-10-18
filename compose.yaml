@@ -1,0 +1,12 @@
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: stock-screener-backend
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
